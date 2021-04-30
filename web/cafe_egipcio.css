@@ -1,0 +1,150 @@
+body{
+  
+    
+
+    background-image: url(fondogeneral.jpg);
+    background-size: 80%;
+    
+    }
+    .navbar{
+        background-image: url(plecasindexnn.png);
+        display: block;
+        margin-top: auto;
+        background-size: cover;
+        min-height: 70px;
+       
+       
+    }
+    .navbar-nav{
+        position: absolute;
+    left: 50%;
+    margin-top: 3rem;
+    }
+    .ima1{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+    .ima2{
+        display: block;
+        margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+    }
+    .ima3{
+    display: block;
+    margin-left: auto;
+margin-right: auto;
+width: 65%;
+margin-top: 5rem;
+}
+.ima4{
+    display: block;
+    margin-left: auto;
+margin-right: auto;
+width: 130%;
+margin-top: 5rem;
+}
+.ima5{
+    display: block;
+    margin-left: auto;
+margin-right: auto;
+width: 65%; 
+margin-top: 5rem;
+}
+.ima6{
+    display: block;
+    margin-left: auto;
+margin-right: auto;
+width: 70%;
+margin-top: 6rem;
+}
+.ima7{
+    display: block;
+    margin-left: auto;
+margin-right: auto;
+width: 55%;
+margin-top: 4rem;
+}
+.ima8{
+    display: block;
+    margin-left: auto;
+margin-right: auto;
+width: 50%;
+margin-top: 4rem;
+}
+.ima9{
+    display: block;
+    margin-left: auto;
+margin-right: auto;
+width: 65%;
+margin-top: 4rem;
+}
+
+footer{
+    background-image:linear-gradient(black,rgb(20, 20, 20)) ;
+    margin-top: 4rem;
+    height: 25rem;
+}
+
+.textcard1{
+    text-align: center;
+}
+.iconwhats{
+    position: relative;
+    left: 20%;
+    top: 1%;
+}
+.iconocorreo{
+    position: relative;
+    left: 40%;
+    top: 1%;
+}
+.textocontacto{
+    text-align: center;
+}
+form {
+    display: block;
+    margin-left: auto;
+margin-right: auto;
+    width:200px;
+}
+.btn{
+    background-image: url(botonEnviar.png);
+    background-size: 100%;
+    height: 4rem;
+    width: 8rem;
+    display: block;
+    margin-left: auto;
+margin-right: auto;
+}
+.horarios{
+    width: 90%;
+}
+.btnface{
+    background-image: url(iconofinal_face.png);
+    background-size: cover;
+    height: 4rem;
+    width: 4rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btninsta{
+    background-image: url(iconofinal_insta.png);
+    background-size: cover;
+    height: 4rem;
+    width: 4rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logofin{
+    display: block;
+    margin-left: auto;
+margin-right: auto;
+    width: 20%;
+    margin-top: 6rem;
+    
+}
