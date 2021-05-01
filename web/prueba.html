@@ -2,12 +2,14 @@
 <html lang="es">
 	<head> 
 		<meta charset="utf-8"/>
-		<title>prueba</title>
+		<title>Prueba</title>
 	<meta name="description" content="tarjeta de presentacion"/>
 <meta name="keywords" content="Musica"/>
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-<link rel="stylesheet" href ="alixircss.css"/>
+<link rel="stylesheet" href ="prueba.css"/>
+<!--link Nav Hamburguesa-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -18,20 +20,112 @@
             
 
                 <header>
-                    <nav class="navbar">
-                        <a class="nav-link active" href="#">Active</a>
-                        <a class="nav-link" href="#">Link</a>
-                        <a class="nav-link" href="#">Link</a>
-                        <a class="nav-link disabled" href="#">Disabled</a>
-                      </nav>
-                    
-                     
-                      
-
+                    <div class="topnav">
+                        <nav id="navbar1" class="navbar justify-content-end navbar-expand-lg navbar-light bg-light ">
+                        
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                              <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                  <a class="nav-link" style="color:white;" href="alixir.html">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" style="color:white;"  href="nosotros.html">Sobre Nosotros</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" style="color:white;" href="cafe_egipcio.html">Cafe egipcio</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" style="color:white;" href="shop&news.html">Shop & News </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" style="color:white;" href="#">¿Quieres  Alixir en tu cafeteria? </a>
+                                  </li>
+                              </ul>
+                            </div>
+                          </nav> 
+                        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                          <i class="fa fa-bars"></i>
+                        </a>
+                      </div>
+                 
+               
                 </header>
                 
-                
+                <img src="Logoinicio.png"  class="image1">  
+                <img src="foto1.jpg"  class="image2"> 
+                <img src="texto1.png"  class="image3">
+                <img src="firmamagdi.png"  class="image4">
+                <img src="AlixirCopto.png"  class="image5">
+                <img src="fotoespecias.jpg" class="image6">
+                <img src="texto2.png" class="image7">
+                <img src="foto3.jpg" class="image8">
+                <img src="foto4.jpg" class="image9">
+                <img src="Tegustaria_frase.png" class="image10">
+           
+                    
+    <!--footer-->
+      <footer>
+       
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-3 col-lg-3">
+                        <h5 class="textcard1" style="color:rgb(167, 100, 0);" class="card-title">Contáctanos</h5>
+            <a class="iconwhats" href="https://"><img src="iconoWhats.png" height="55"></a>
+            <a class="iconocorreo" href="https://"><img src="iconoCorreo.png" height="60"></a>
+                    </div>
+
+                    <div class="col-md-6 col-lg-6">
+                        <h5 class="textocontacto" style="color:rgb(167, 100, 0);" >Dejanos un Mensaje </h5>
+                        <form action="mailto:alixircafe@gmail.com" method="POST">
+                            <fieldset enabled>
+                              <div class="form-group">
+                                <label for="nameinput">Nombre</label>
+                                <input type="text" id="name" class="form-control" placeholder="Nombre">
+                              </div>
+                              <div class="form-group">
+                                <label for="emailinput">email</label>
+                                <input type="text" id="email" class="form-control" placeholder="Email">
+                              </div>
+                              <div class="form-group">
+                                <label for="messageinput">mensaje</label>
+                                <input type="text" id="messaje" class="form-control" placeholder="Escriba su mensaje">
+                              </div>
+                              <button id="sub"  type="submit" class="btn "  ></button>
+                              </div>
+                            </fieldset>
+
+                          </form> 
             
+                          <div class="col-md-3 col-lg-3">
+                            
+                            <img  src="HorariosAtencion.png" class="horarios">
+                        </div>
+                      
+                    </div>
+
+                    
+                </div>
+                
+            </div>
+           
+      </footer> 
+      <div class="row">
+        <div class="col-md-3 col-lg-5">
+
+        </div>
+        <div class="col-md-3 col-lg-1">
+          <a class="btnface" href="https://www.facebook.com/Alixir-Caf%C3%A9-103512035162206" role="button"></a>
+        </div>
+        <div class="col-md-3 col-lg-1">
+          <a class="btninsta" href="https://www.instagram.com/alixircafe/" role="button"></a> 
+        </div>
+        <div class="col-md-3 col-lg-5">
+          
+        </div>
+      </div> 
+      <img  src="logofinal.jpg" class="logofin">
 <!-- Just an image -->
        
 		 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
